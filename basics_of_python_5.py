@@ -3,7 +3,7 @@ import matplotlib.pyplot as plt
 
 # GENERATING AWGN NOISES
 # Generating AWGN with nominal power:
-NUMBER_OF_SAMPLES = 1000
+NUMBER_OF_SAMPLES = 100
 noise = np.random.randn(NUMBER_OF_SAMPLES)
 
 # Generating AWGN with specified power:
